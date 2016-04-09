@@ -145,7 +145,7 @@ regexStream.on(
 			logOutput( "Pattern match: " + content.toString( "utf8" ) );    
 		}
 		// Split the input string with "." or ","
-		var split = fs.readFileSync("input-sensor.txt").toString().split(",");
+		var split = fs.readFileSync("input-sensor.txt").toString().split(".");
 		 console.log(split);
 
 	}
